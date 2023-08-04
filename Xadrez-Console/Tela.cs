@@ -4,7 +4,7 @@ namespace Xadrez_Console
 {
     class Tela
     {
-        public static void imprimirTabuleiro(Tabuleiro tab)
+        public static void imprimirTabuleiro(Tabuleiro tab) //Metodo que imprime o tabueliro
         {
             for(int i = 0; i<tab.linhas;  i++)
             {               
