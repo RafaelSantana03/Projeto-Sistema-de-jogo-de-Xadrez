@@ -15,5 +15,10 @@
             this.qteMovimentos = 0; //Se inicia com zero pq a peça não mexeu ainda
         }
 
+        public void incrementarQtemovimentos()
+        {
+            qteMovimentos++;
+        }
+
     }
 }
